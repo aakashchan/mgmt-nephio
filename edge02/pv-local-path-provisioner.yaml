@@ -4,9 +4,6 @@ metadata: # kpt-merge: /example-local-path-provisioner
   name: edge02-local-path-provisioner
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-local-path-provisioner'
-  labels:
-    nephio.org/region: us-west1
-    nephio.org/site-type: edge
 spec:
   annotations:
     approval.nephio.org/policy: initial
