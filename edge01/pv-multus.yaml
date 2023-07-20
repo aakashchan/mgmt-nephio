@@ -4,6 +4,9 @@ metadata: # kpt-merge: /example-multus
   name: edge01-multus
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-multus'
+  labels:
+    nephio.org/region: us-west1
+    nephio.org/site-type: edge
 spec:
   annotations:
     approval.nephio.org/policy: initial
